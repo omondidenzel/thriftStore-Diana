@@ -1,3 +1,8 @@
+p a{
+  text-decoration: none;
+  color: black;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -12,3 +17,20 @@
     padding: 10px;
   }
   
+  button{
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  input{
+    background-color: white;
+    margin-top: 1px;
+    width: 80%;
+  }
+
+  button:hover{
+    background-color: black;
+    color: white;
+  }
